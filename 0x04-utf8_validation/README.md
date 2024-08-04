@@ -44,6 +44,7 @@ def validUTF8(data) -> bool:
                 return False
             n = n - 1
     return n == 0
+```
 
 ### How it works
  Iterates through the input array: Processes each integer as a byte.
