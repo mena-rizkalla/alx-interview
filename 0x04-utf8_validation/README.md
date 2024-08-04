@@ -48,8 +48,11 @@ def validUTF8(data) -> bool:
 
 ### How it works
  Iterates through the input array: Processes each integer as a byte.
+ 
  Checks byte type: Determines the number of bytes in the current UTF-8 character based on the leading bits of the byte.
+ 
  Validates subsequent bytes: Ensures that the following bytes adhere to the UTF-8 encoding rules for continuation bytes.
+ 
  Returns result: Indicates whether the entire input is a valid UTF-8 encoding.
 
 
