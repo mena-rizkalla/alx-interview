@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 
 def validUTF8(data) -> bool:
     x = 128
