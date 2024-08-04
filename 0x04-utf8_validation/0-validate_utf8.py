@@ -1,3 +1,5 @@
+#!/usr/bin/pyhton3
+
 def validUtf8(self, data: List[int]) -> bool:
         
         x = 128
